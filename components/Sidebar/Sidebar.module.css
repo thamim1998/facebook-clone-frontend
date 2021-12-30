@@ -1,0 +1,30 @@
+.Sidebar {
+  width: 25%;
+}
+.Sidebar img {
+  width: 36px;
+  border-radius: 50%;
+}
+
+.Sidebar div {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid; */
+  padding: 10px;
+  margin: 10px;
+}
+
+.Sidebar p {
+  font-size: 17px;
+  margin: 10px;
+}
+
+.Sidebar div:hover {
+  background-color: rgba(151, 146, 146, 0.699);
+  border-radius: 10px;
+}
+
+.Sidebar svg {
+  width: 36px;
+  border-radius: 50%;
+}

@@ -60,6 +60,7 @@ function Login() {
             <div>
               <div className={styles.inputForm}>
                 <form onSubmit={(event) => loginSubmit(event)}>
+
                   <input
                     type="text"
                     className={styles.formControl}
@@ -67,6 +68,7 @@ function Login() {
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                   />
+
                   <input
                     type="password"
                     className={styles.formControl}
@@ -74,6 +76,7 @@ function Login() {
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                   />
+
                   <div>
                     <button className={styles.buttonLogin}>Log In</button>
                   </div>
@@ -103,7 +106,8 @@ function Login() {
             <Modal.Title>Sign up</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <form onSubmit={(event) => registerSubmit(event)}>           
+            <form onSubmit={(event) => registerSubmit(event)}>     
+
               <input
                 type="text"
                 className={styles.formControl}
@@ -111,6 +115,7 @@ function Login() {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />
+
                <input
                 type="text"
                 className={styles.formControl}
@@ -118,6 +123,7 @@ function Login() {
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
               />
+
               <input
                 type="password"
                 className={styles.formControl}
@@ -125,10 +131,6 @@ function Login() {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
               />
-              <p>{name}</p>
-              <p>{username} </p>
-              <p>{password} </p>
-
               <div>
                 <button className={styles.buttonLogin}>Sign up</button>
               </div>

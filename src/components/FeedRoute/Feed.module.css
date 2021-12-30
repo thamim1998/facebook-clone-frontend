@@ -1,0 +1,105 @@
+.feed {
+  width: 50%;
+  padding-top: 20px;
+}
+
+.statusCard {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 10px;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.statusBar img {
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: contain;
+}
+
+.statusBar {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.statusBar input {
+  width: 80%;
+  height: 40px;
+  border: none;
+  /* background-color: rgba(151, 146, 146, 0.699); */
+  border-radius: 30px;
+}
+
+.statusBar input:focus {
+  outline: none;
+}
+
+.statusBar div {
+  background-color: rgba(245, 245, 245, 0.986);
+  align-items: center;
+  font-size: 15px;
+  display: flex;
+  width: 80%;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.statusBar div:hover {
+  background-color: rgba(224, 224, 224, 0.986);
+}
+
+.activityBar {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.activityBar span {
+  margin: 10px;
+}
+
+.postCard {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.postHeader{
+    padding: 5px;
+}
+
+.postHeader img {
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: contain;
+}
+
+.postImage {
+  width: 100%;
+  object-fit: contain;
+}
+
+.likeIcon{
+    width: 20px;
+    height: 20px;
+    margin:5px ;
+}
+
+.likeCount{
+    display: flex;
+    justify-content: space-between;
+}
+
+.likeCount span{
+    margin: 5px 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding:5px 0px;
+}

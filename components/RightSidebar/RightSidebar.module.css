@@ -1,0 +1,42 @@
+.RightSidebar {
+  width: 25%;
+}
+.header h4 {
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  margin: 5px;
+  color: #4d4b4b;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+/* .header svg {
+  margin-right: 20px;
+} */
+
+.activeMembers img {
+  width: 36px;
+  border-radius: 50%;
+}
+
+.activeMembers div {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.activeMembers div:hover {
+  background-color: rgba(151, 146, 146, 0.699);
+  border-radius: 10px;
+}
+
+.activeMembers p {
+    font-size: 17px;
+    margin:10px;
+}
